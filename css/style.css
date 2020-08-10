@@ -70,8 +70,8 @@ p {
   z-index: 500;
 }
 header {
-  min-height: 100vh;
   padding-top: 30px;
+  padding-bottom: 100px;
 }
 header .top-header {
   display: flex;
@@ -132,14 +132,14 @@ header .top-header span {
   justify-content: space-between;
 }
 .skills .skills-container .skills-wrapper .skills-list {
-  width: 33%;
+  width: 25%;
 }
 .skills .skills-container .skills-wrapper .skills-list li {
   list-style-type: square;
   padding: 5px 0;
 }
 .projects .projects-container {
-  padding: 50px 0 150px 0;
+  padding: 50px 0 100px 0;
 }
 .projects .projects-container p {
   text-align: center;
@@ -148,12 +148,12 @@ header .top-header span {
 .projects .projects-container .projects-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .projects .projects-container .projects-list .project-card {
   width: 25%;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-right: 20px;
   padding: 40px 0;
   box-sizing: border-box;
