@@ -89,6 +89,7 @@
   }
   header {
     min-height: auto;
+    padding-bottom: 0;
   }
   header .top-header {
     padding-bottom: 40px;
